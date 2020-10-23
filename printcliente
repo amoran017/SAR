@@ -1,0 +1,6 @@
+message = s.recv(10000)
+
+#message == "OK+723"
+
+if message.startswith("OK+"):
+  print("La carga es {},{}%".format(message[3:5], message[5])
